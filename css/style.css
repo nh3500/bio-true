@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -753,7 +753,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 200px;
+  height: 400px;
   overflow: hidden !important;
   margin-bottom: 15px;
   transition: all 350ms ease;
@@ -800,9 +800,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0;
 }
 
-#portfolio .portfolio-item:hover img {
+/* #portfolio .portfolio-item:hover img {
   top: -30px;
-}
+} */
 
 /* Team Section
 --------------------------------*/
