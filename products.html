@@ -78,7 +78,45 @@
 
   <main id="main">
 
-    
+    <section id="portfolio" class="wow fadeInUp">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Portfolio</h3>
+          <p class="section-description">
+            {{ message }}
+          </p>
+        </div>
+
+        <div id="filter" class="row">
+          <span> 分類標籤 </span>
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <template v-for="tag in tagFilters">
+                <li :data-filter="'.filter-'+tag">{{tag}}</li>
+              </template>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-columns" id="products">
+          <template v-for="item in items">
+            <div class="card portfolio-item" v-on:click="showProcductDetails(item.productId)" 
+                v-bind:class="classGenerator(item)">
+              <img class="card-img-top" src="https://dummyimage.com/150x4:3/" alt="Card image cap">
+              <div class="card-body" style="height: 200px; width: 150px">
+                <h5 class="card-title">{{item.productName}}</h5>
+                <p class="card-text">
+                  {{item.targetSymptom}}
+                </p>
+                <p class="card-text">
+                  <span class="badge badge-primary">{{item.category}}</span>
+                  <span class="badge badge-info" v-if="item.origin">{{item.origin}}</span>
+                </p>
+              </div>
+            </div>
+          </template>
+    </div>
+
 
     <!--==========================
       Portfolio Section
@@ -314,6 +352,42 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="products.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.33.1/dist/sweetalert2.all.min.js"></script>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#portfolio',
+      data: {
+      items: products,
+      tagFilters:[],
+      message:'welcome msg'
+      },
+      methods: {
+        classGenerator: function (item, ) {
+          classArr = [' ']
+          
+          if (item.origin !== '') {
+            classArr.push(item.origin)
+            this.tagFilters.push(item.origin)
+          }
+
+          if (item.category !== '') {
+            classArr.push(item.category)
+            this.tagFilters.push(item.category)
+          }
+
+          this.tagFilters = [...new Set(this.tagFilters)]
+          // console.log(this.tagFilters)
+          console.log(classArr)
+          return classArr.join(" filter-")
+        }
+      }
+    })
+  </script>
 
 </body>
 </html>
