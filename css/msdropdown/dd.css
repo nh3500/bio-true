@@ -90,7 +90,7 @@ img.shrink-logo {
     text-decoration: none;
     
 }
-.text-center a img:hover{
+.caption a img:hover{
     opacity:0.7; 
     transition: all 0.3s ease-in-out 0s;
     
