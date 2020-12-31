@@ -76,26 +76,62 @@ img.shrink-logo {
     
     }
 }
-.caption a{
+.brands{
+    border:1px solid #ddd;
+    width: 300px;
+    display: inline-block;
+    border-radius:10px;
+    background-color: #fff;
+}
+.brands a{
     color:#629c81;
 }
 
-.caption a:link{
+.brands a:link{
     text-decoration: none;
 }
-.caption a:hover{
+.brands a:hover{
     color: #99C62B;
     opacity:0.7; 
     transition: all 0.3s ease-in-out 0s;
     text-decoration: none;
     
 }
-.caption a img:hover{
+.brands a img:hover{
     opacity:0.7; 
     transition: all 0.3s ease-in-out 0s;
     
 }
+.linka a:link {
+    text-decoration: none;
+    color: #777;
+}
 
+.linka a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+.linka a:hover {
+    text-decoration: none;
+    opacity:0.7; 
+    transition: all 0.3s ease-in-out 0s;
+}
+/*  */
+.thumbnail h3:link{
+    text-decoration: none;
+}
+.thumbnail h3:hover{
+    color: #99C62B;
+    opacity:0.7; 
+    transition: all 0.3s ease-in-out 0s;
+    text-decoration: none;
+    
+}
+.thumbnail img:hover{
+    opacity:0.7; 
+    transition: all 0.3s ease-in-out 0s;
+}
 
 
             
