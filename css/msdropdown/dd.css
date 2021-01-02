@@ -63,19 +63,26 @@ img.fnone{float:none !important}
 .dd .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
 .dd .ddChild li.selected{background-color:#d5d5d5; color:#000;}
 
-img.shrink-logo {
-    max-width: 30%;
+.shrink-logo {
+    min-width: 30%;
     margin-bottom: 6px;
     margin-top: 6PX;
+    background-image: url('/images/logo_white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 342px;
+    height:44px;
+    display: flex;
+    
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     img.shrink-logo{
     min-width: 200px;
     margin-bottom: 6px;
     margin-top: 6PX;
     
     }
-}
+} */
 .brands{
     border:1px solid #ddd;
     width: 300px;
