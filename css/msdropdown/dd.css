@@ -177,10 +177,10 @@ img.shrink-logo {
   
   .entire-content {
     margin: auto;
-    width: 190px;
-    perspective: 1000px;
+    width: 217px;
+    perspective: 800px;
     position: relative;
-    padding-top: 20px;
+    padding-top: 0px;
   }
   
   .content-carrousel {
@@ -198,7 +198,7 @@ img.shrink-logo {
   
   .content-carrousel figure {
     width: 100%;
-    height: 120px;
+    height: 140px;
     border: 1px solid #3b444b;
     overflow: hidden;
     position: absolute;
