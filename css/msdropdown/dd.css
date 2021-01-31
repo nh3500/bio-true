@@ -325,6 +325,7 @@ img.fnone{float:none !important}
 /*   -webkit-transition: 500ms; */
   margin-top: 0;
   opacity: 1;  
+  
 }
 /* End of Partnership */
 /* Started of News */
@@ -361,6 +362,12 @@ img.fnone{float:none !important}
 
 
 /* End of News */
+/* Product_box_list */
+.caption b{
+  font-size: 13px;
+}
+
+
 
 
             
