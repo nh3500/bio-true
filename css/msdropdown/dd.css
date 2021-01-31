@@ -70,19 +70,19 @@ img.fnone{float:none !important}
     background-image: url('/images/logo_white.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 342px;
-    height:44px;
+    width: 364px;
+    height:67px;
     display: flex;
     
 }
-/* @media (max-width: 768px) {
-    img.shrink-logo{
+@media (max-width: 480px) {
+    .shrink-logo{
     min-width: 200px;
     margin-bottom: 6px;
     margin-top: 6PX;
-    
+    width: 300px;
     }
-} */
+}
 .brands{
     border:1px solid #ddd;
     width: 300px;
