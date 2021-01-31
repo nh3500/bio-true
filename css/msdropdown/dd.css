@@ -75,7 +75,7 @@ img.fnone{float:none !important}
     display: flex;
     
 }
-@media (max-width: 480px) {
+@media (max-width: 400px) {
     .shrink-logo{
     min-width: 200px;
     margin-bottom: 6px;
