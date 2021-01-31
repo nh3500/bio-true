@@ -65,24 +65,25 @@ img.fnone{float:none !important}
 
 .shrink-logo {
     min-width: 30%;
-    margin-bottom: 6px;
-    margin-top: 6PX;
+    /* margin-bottom: 6px;
+    margin-top: 6PX; */
     background-image: url('/images/logo_white.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 363px;
+    width: 95%;
     height:67px;
     display: flex;
+    margin: 6px;
     
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .shrink-logo{
     min-width: 200px;
     margin-bottom: 6px;
     margin-top: 6PX;
     width: 300px;
     }
-}
+} */
 .brands{
     border:1px solid #ddd;
     width: 300px;
