@@ -349,15 +349,19 @@ img.fnone{float:none !important}
 }
 .title_date h1{
   width: 85px;
-  background-color: #7baf71;
+  /* background-color: #7baf71; */
   border: 0px solid #ddd;
   border-radius: 41px;
   text-align: center;
   padding: 5px;
+  background-image: url(/img/br.png);
+  
+}
+.title_list{
+  background-color: rgba(206, 206, 206, 0.18);border-radius: 20px;padding: 5px;
 }
 .title_list p{
   margin: 0 0 10px;
-  background-color: #cecece2e;
   padding: 20px;
   border-radius: 10px;
 }
