@@ -552,7 +552,7 @@ a.thumbnail.active {
 
 .footer {
     padding: 35px 0;
-    background: #515151;
+    background: -webkit-linear-gradient(59deg, #515151, #000000);
     color: #fff;
     line-height: 52px
 }
