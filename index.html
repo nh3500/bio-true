@@ -347,7 +347,7 @@
     <!-- Call Reservation Section -->
 
 
-    <div class="section-title text-center center" style="background: #444 url(images/45757.jpg) center top no-repeat fixed;
+    <div class="section-title text-center center" style="background:url(images/45757.jpg) center top no-repeat fixed;
     background-size: cover;">
 
 
@@ -393,6 +393,60 @@
         clip-path: url(#clip-00);
         width: 100%;
         display: block;
+      }
+
+      .overlay :first-child {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      .overlay:first-of-type {
+
+        animation: showup 10s infinite;
+      }
+
+
+
+      .overlay:last-of-type p {
+        margin-left: -355px;
+        animation: slidein 10s infinite;
+      }
+
+      @keyframes showup {
+        0% {
+          opacity: 0;
+        }
+
+        20% {
+          opacity: 1;
+        }
+
+        80% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes slidein {
+        0% {
+          margin-left: -300px;
+        }
+
+        20% {
+          margin-left: -300px;
+        }
+
+        35% {
+          margin-left: 0px;
+        }
+
+        100% {
+          margin-left: 0px;
+        }
       }
     </style>
 
@@ -441,128 +495,175 @@
           </div>
         </div>
       </div>
-
-
-
-      <!--End of list-->
-      <!--Partner-->
-
-      <div class="container">
-
-        <div class="col-md-12 col-sm-12" style="margin-bottom: 40px;">
-          <h1 class="index_title" style='border-bottom: solid 1px;'></h1>
-          <div class="row">
-            <div class="Partner_card">
-              <img src="./upload/logo/0237ff15576bd31ceatless.jpg" alt="">
-              <div class="Partner_info">
-                <button>想了解</button>
-
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/Actazin.png" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/b0c356959f9058d9oilgo-2.jpg" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/biocelltechnology.png" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/cranbaturelle.jpg" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/CRANDOR.jpg" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/dornutraceuticals.png" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/ethicalnaturals.png" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/gaxsol.jpg" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/glucosagreen_Glucosagreen.png" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/hyundaibioland.png" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-              </div>
-            </div>
-            <div class="Partner_card">
-              <img src="./upload/logo/hyundaibioland.png" alt="">
-              <div class="Partner_info">
-                <button>View More</button>
-              </div>
-            </div>
-
+      <!-- 2 of News -->
+      <div class="col-md-8 col-sm-8">
+        <H1 class="index_title" style="font-size: 28px;">最新消息<a href="#">more</a></H1>
+        <div class="row">
+          <div class="col-md-2" style=' display:contents;'>
+            <ul class="title_list">
+              <li>
+                <div class="title_date">
+                  <H1>2020-01-02</H1>
+                </div>
+                <p>
+                  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                  mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                  euismod. Donec sed odio dui.
+                </p>
+              </li>
+              <li>
+                <div class="title_date">
+                  <H1>2020-01-02</H1>
+                </div>
+                <p>
+                  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                  mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                  euismod. Donec sed odio dui.
+                </p>
+              </li>
+              <li>
+                <div class="title_date">
+                  <H1>2020-01-02</H1>
+                </div>
+                <p>
+                  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                  mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                  euismod. Donec sed odio dui.
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
+
       </div>
     </div>
-
-
-    <!--End of Partner-->
-
+  </div>
 
 
 
-    <footer class="footer ">
+  <!--End of list-->
+  <!--Partner-->
+  <div style='background-color: rgb(0, 0, 0);'>
+    <div class="container-fluid">
 
+      <div class="col-md-12 col-sm-12" style="margin-bottom: 40px;">
+        <h1 class="index_title" style='border-bottom: solid 1px;'></h1>
+        <div class="row">
+          <div class="Partner_card">
+            <img src="./upload/logo/0237ff15576bd31ceatless.jpg" alt="">
+            <div class="Partner_info">
+              <button>想了解</button>
 
-      <div class="container">
-        <font size="3">
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/Actazin.png" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
 
-          <!--a href="#">聯絡我們</a-->
-        </font>
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/b0c356959f9058d9oilgo-2.jpg" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/biocelltechnology.png" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/cranbaturelle.jpg" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/CRANDOR.jpg" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/dornutraceuticals.png" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/ethicalnaturals.png" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/gaxsol.jpg" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/glucosagreen_Glucosagreen.png" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/hyundaibioland.png" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+            </div>
+          </div>
+          <div class="Partner_card">
+            <img src="./upload/logo/hyundaibioland.png" alt="">
+            <div class="Partner_info">
+              <button>View More</button>
+            </div>
+          </div>
+
+        </div>
       </div>
-      <div class="container about">
-        台灣總公司：新樂康有限公司 &nbsp;&nbsp;&nbsp;&nbsp;地址：台中市太平區太順路329號 &nbsp;&nbsp;&nbsp;
-        電話：+886-4-23960263
-        傳真：+886-4-23960273<br />
 
-        中國辦事處：杭州欣生喜生物技術有限公司 &nbsp;&nbsp;&nbsp;&nbsp;地址：杭州市余杭区南苑街道西子国际金座2楼606室 <br />
+    </div>
+  </div>
 
-        E-mail: admin@bio-true.com.tw<br />
-        Copyright © 2016 bio-true All rights reserved.　
-      </div>
 
-    </footer>
+  <!--End of Partner-->
+
+
+
+
+  <footer class="footer ">
+
+
+    <div class="container">
+      <font size="3">
+
+        <!--a href="#">聯絡我們</a-->
+      </font>
+    </div>
+    <div class="container about">
+      台灣總公司：新樂康有限公司 &nbsp;&nbsp;&nbsp;&nbsp;地址：台中市太平區太順路329號 &nbsp;&nbsp;&nbsp;
+      電話：+886-4-23960263
+      傳真：+886-4-23960273<br />
+
+      中國辦事處：杭州欣生喜生物技術有限公司 &nbsp;&nbsp;&nbsp;&nbsp;地址：杭州市余杭区南苑街道西子国际金座2楼606室 <br />
+
+      E-mail: admin@bio-true.com.tw<br />
+      Copyright © 2016 bio-true All rights reserved.　
+    </div>
+
+  </footer>
 
 
   </div>
