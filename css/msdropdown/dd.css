@@ -397,6 +397,38 @@ img.fnone{float:none !important}
     display: inherit;
 }
 
+/* footer */
+footer{
+  display: block;
+    overflow: hidden;
+    background-color: #0c2326;
+    padding: 40px 0 0;
+}
+footer a , p{
+  color: white;
+}
+footer .item{
+  margin: 20px 0 20px 0;
+}
+footer .item  h4{
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+footer .item  p{
+  position: relative;
+  /* padding-left: 25px; */
+  font-size: 15px;
+  margin: 0 0 10px 0;
+  color: white;
+}
+footer .copyright{
+  padding: 10px 0 0;
+  border-top: solid #10d0e7 1px;
+  /* margin-top: 30px; */
+}
+
 
 
 
