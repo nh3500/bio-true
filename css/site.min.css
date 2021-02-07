@@ -389,13 +389,13 @@ a.thumbnail.active {
 }
 
 .copyright {
-    background: #111;
+    /* background: #088a6b; */
     font-size: 13px;
     text-align: center;
-    color: #555;
-    padding-top: 14px;
-    padding-bottom: 20px;
-    border-top: 1px solid #303030
+    /* color: #555; */
+    /* padding-top: 14px; */
+    /* padding-bottom: 1px;
+    border-top: 1px solid #303030 */
 }
 
 .copyright span {

@@ -424,8 +424,9 @@ footer .item  p{
   color: white;
 }
 footer .copyright{
-  padding: 10px 0 0;
+  padding: 10px 0 1px;
   border-top: solid #10d0e7 1px;
+  background: #088a6b;
   /* margin-top: 30px; */
 }
 
