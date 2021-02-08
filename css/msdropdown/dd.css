@@ -587,8 +587,8 @@ img.fnone {
 
 .Partner_card>img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 100px;
+  height: 100px;
 }
 
 .Partner_info {
@@ -612,8 +612,8 @@ img.fnone {
 
 .Partner_info:hover {
   /*   -webkit-transition: 500ms; */
-  margin-top: 0;
-  opacity: 1;
+  /* margin-top: 0;
+  opacity: 1; */
 
 }
 
@@ -645,7 +645,7 @@ img.fnone {
   border-radius: 41px;
   text-align: center;
   padding: 5px;
-  background-image: url(/img/br.png);
+  background-image: url();
 
 }
 
