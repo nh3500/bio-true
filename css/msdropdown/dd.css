@@ -310,14 +310,15 @@ img.fnone {
 
 }
 
-/* @media (max-width: 400px) {
+@media (max-width: 400px) {
     .shrink-logo{
     min-width: 200px;
     margin-bottom: 6px;
     margin-top: 6PX;
     width: 300px;
+    height: 74px;
     }
-} */
+}
 .brands {
   border: 1px solid #ddd;
   width: 300px;
