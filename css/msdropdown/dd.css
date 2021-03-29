@@ -757,11 +757,14 @@ footer .copyright {
 }
 
 .service_card li {
-  display: block;
+  display: inline-block;
   text-align: center;
-  /* margin-bottom: 1.5rem;
-  width: 50%;
+  margin-bottom: 3rem;
+  /* width: 50%;
   float: left; */
+}
+.service_card li p{
+  font-size: 23px;
 }
 
 .clearfix:after {
@@ -774,7 +777,7 @@ footer .copyright {
 }
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .service_card li:nth-child(3n+1) {
     clear: both;
   }
@@ -782,5 +785,5 @@ footer .copyright {
   .service_card li {
     width: 33.33%;
   }
-}
+} */
 
