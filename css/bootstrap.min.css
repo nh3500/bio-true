@@ -5300,7 +5300,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 .navbar-inverse {
-    background-color:rgb(8, 138, 107);
+    background-color:#0c2326;
     border-color: #080808;
     
 }
@@ -5320,7 +5320,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #000000
+    color: #fff;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,
