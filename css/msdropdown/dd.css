@@ -740,7 +740,7 @@ footer .copyright {
 /* service_card */
 .service_card .pic img {
   width: auto;
-  height: 100%;
+  height: 30%;
   max-width: 120px;
   max-height: 120px;
   display: inline-block;
@@ -758,14 +758,15 @@ footer .copyright {
 }
 
 .service_card li {
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
   margin-bottom: 3rem;
   /* width: 50%;
   float: left; */
 }
 .service_card li p{
-  font-size: 23px;
+  font-size: 12px;
+  width: 50px;
 }
 
 .clearfix:after {
@@ -778,13 +779,41 @@ footer .copyright {
 }
 
 
-/* @media (min-width: 768px) {
-  .service_card li:nth-child(3n+1) {
-    clear: both;
-  }
+  /* 產業整合 */
 
-  .service_card li {
-    width: 33.33%;
+.index-info {
+  padding: 1rem 0;
+}
+.index-info .pic {
+  max-width: 120px;
+  max-height: 120px;
+  height: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: center;
+  margin-bottom: 1rem;
+}
+.index-info li img {
+  width: 100%;
+  max-width: 120px;
+  max-height: 120px;
+  display: inline-block;
+  text-align: center;
+}
+.index-info li p {
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  .index-info li img {
+    width: 30%;
+    max-width: 120px;
+    max-height: 120px;
+    display: inline-block;
+    text-align: center;
   }
-} */
-
+  .index-info li p {
+    font-size: 14px;
+  
+  }
+}
+/* 產業整合 */
