@@ -646,6 +646,7 @@ a.thumbnail.active {
     font-size: 12px;
     padding: 1em;
     display: none;
+    z-index: 1;
 }
 
 .back-to-top:hover {
